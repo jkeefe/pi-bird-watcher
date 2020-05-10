@@ -13,7 +13,7 @@ import sys
 
 
 image_path = sys.argv[1]
-if !image_path:
+if not image_path:
     print("Need a file name to check!")
     sys.exit(1)
 
