@@ -12,7 +12,7 @@ import requests
 
 
 image_name = 'bird-article-l.png'
-image_path = f'../testdata/{image_name}'
+image_path = '../testdata/' + image_name
 analyzer_url = 'https://pi-bird-watcher.onrender.com/checkurl'
 bucket = 'pi-bird-images'
 bucket_url = 'https://pi-bird-images.s3.amazonaws.com/'
