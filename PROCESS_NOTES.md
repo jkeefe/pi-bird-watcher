@@ -63,5 +63,14 @@ Followed [these instructions](https://help.github.com/en/github/creating-cloning
 - Deleted the temporary bare repo (be SURE to add the .git!): `rm -rf render-fastai-rosebot.git`
 - Made a new clone by pulling it down from Github: `git@github.com:jkeefe/pi-bird-watcher-render.git`
 
+## Copy the pikrellcam config file to local drive
 
+```
+scp pi@10.0.1.65:.pikrellcam/pikrellcam.conf ./
+```
 
+And the other way around:
+
+```
+scp pikrellcam.conf pi@10.0.1.65:.pikrellcam/pikrellcam.conf
+```
